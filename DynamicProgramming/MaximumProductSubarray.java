@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package LeetCode.DynamicProgramming;
 
 public class MaximumProductSubarray {
 	 public int maxProduct(int[] nums) {

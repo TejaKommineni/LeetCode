@@ -1,3 +1,4 @@
+package LeetCode.General;
 class Tickets
 {
 int count=100;	

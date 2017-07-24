@@ -1,4 +1,4 @@
-package Misscelanious;
+package LeetCode.Misscelanious;
 
 import java.io.IOException;
 import java.math.BigInteger;

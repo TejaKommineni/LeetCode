@@ -1,4 +1,4 @@
-
+package LeetCode.General;
 class Node
 {
 int data;

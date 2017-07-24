@@ -1,4 +1,4 @@
-package Misscelanious;
+package LeetCode.Misscelanious;
 
 import java.util.Arrays;
 import java.util.HashMap;

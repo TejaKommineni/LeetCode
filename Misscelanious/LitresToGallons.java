@@ -1,4 +1,4 @@
-package Misscelanious;
+package LeetCode.Misscelanious;
 
 public class LitresToGallons {
 	

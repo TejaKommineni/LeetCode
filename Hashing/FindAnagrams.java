@@ -1,4 +1,5 @@
-package Hashing;
+
+package LeetCode.Hashing;
 
 import java.util.ArrayList;
 import java.util.List;

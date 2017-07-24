@@ -1,4 +1,4 @@
-package Contests;
+package LeetCode.Contests;
 
 import java.util.ArrayList;
 

@@ -1,3 +1,4 @@
+package LeetCode.General;
 import java.util.HashMap;
 
 public class NumberOfBits {

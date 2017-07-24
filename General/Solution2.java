@@ -1,4 +1,5 @@
 
+package LeetCode.General;
 public class Solution2 {
 	
 	

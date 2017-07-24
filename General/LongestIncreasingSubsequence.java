@@ -1,4 +1,4 @@
-
+package LeetCode.General;
 public class LongestIncreasingSubsequence {
 
 	public int lengthOfLIS(int[] nums) {

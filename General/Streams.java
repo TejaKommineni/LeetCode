@@ -1,3 +1,4 @@
+package LeetCode.General;
 import java.util.LinkedList;
 import java.util.Queue;
 

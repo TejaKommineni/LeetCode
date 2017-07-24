@@ -1,4 +1,4 @@
-package Sorting;
+package LeetCode.Sorting;
 
 public class FindMedianSortedArrays {
 	

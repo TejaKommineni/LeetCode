@@ -1,4 +1,4 @@
-package AdvancedAlgorithms;
+package LeetCode.AdvancedAlgorithms;
 
 class Base
 {	

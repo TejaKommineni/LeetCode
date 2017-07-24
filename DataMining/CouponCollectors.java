@@ -1,4 +1,4 @@
-package DataMining;
+package LeetCode.DataMining;
 
 import java.util.HashMap;
 import java.util.Random;

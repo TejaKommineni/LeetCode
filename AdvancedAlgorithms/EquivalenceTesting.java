@@ -1,4 +1,4 @@
-package AdvancedAlgorithms;
+package LeetCode.AdvancedAlgorithms;
 
 public class EquivalenceTesting {
 
@@ -13,9 +13,7 @@ public class EquivalenceTesting {
 		}
 		
 		
-	}
-	
-	
+	}	
 	
 	private static void equivalenceCount(int[] nums, int i, int mid, int j) {
 		

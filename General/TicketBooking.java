@@ -1,3 +1,6 @@
+package LeetCode.General;
+
+
 import java.util.Arrays;
 
 

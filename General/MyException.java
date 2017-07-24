@@ -1,4 +1,4 @@
-
+package LeetCode.General;
 public class MyException extends Exception
 {
 	String message;

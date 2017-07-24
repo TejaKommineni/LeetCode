@@ -1,4 +1,4 @@
-
+package LeetCode.General;
 class MyThread implements Runnable{
 
 	Thread t;

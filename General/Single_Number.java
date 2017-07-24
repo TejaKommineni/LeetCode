@@ -1,3 +1,4 @@
+package LeetCode.General;
 
 public class Single_Number {
 	

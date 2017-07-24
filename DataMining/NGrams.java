@@ -1,4 +1,4 @@
-package DataMining;
+package LeetCode.DataMining;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

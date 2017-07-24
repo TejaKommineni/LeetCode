@@ -1,4 +1,4 @@
-package Codejam;
+package LeetCode.Codejam;
 
 import java.io.*;
 import java.util.*;

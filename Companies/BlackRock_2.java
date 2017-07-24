@@ -1,4 +1,4 @@
-package Companies;
+package LeetCode.Companies;
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -234,11 +234,11 @@ class Transaction {
 
 	private double quantity;
 
-	public Transaction(String type, String ticker, String string) {
+	public Transaction(String type, String ticker, double quantity2) {
 
 		this.ticker = ticker;
 		this.type = type;
-		this.quantity = string;
+		this.quantity = quantity2;
 
 	}
 

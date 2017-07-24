@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Contests;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -61,6 +61,23 @@ public class Contest39 {
 		List<int[]> li = new ArrayList();
 		li.add(a);
 		System.out.println("tja");
+		System.out.println(cs.hashCode());
+		System.out.println(cs.toString());
+		try
+		{
+			int c = 3/0;
+		}
+		catch(Exception e)
+		{
+			System.out.println("ayoo error");
+		}
+		System.out.println("still i will get printed.");
+		
+		Integer i  = 1;
+		Integer i1  = 1;
+		if(i.equals(i1))
+			System.out.println("still i will get printed.");
+		
 	}
 	
 }

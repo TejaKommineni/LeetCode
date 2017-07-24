@@ -1,4 +1,4 @@
-
+package LeetCode.General;
 public class nextPermutation {
 	
 	public void nextPermutation(int[] num) {

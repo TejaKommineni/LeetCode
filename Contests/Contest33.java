@@ -1,4 +1,4 @@
-package Contests;
+package LeetCode.Contests;
 
 public class Contest33 {
     public String fractionAddition(String expression) {

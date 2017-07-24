@@ -1,3 +1,4 @@
+package LeetCode.General;
 class BNode
 {
 	BNode(int data)

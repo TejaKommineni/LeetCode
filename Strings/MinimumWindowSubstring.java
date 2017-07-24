@@ -1,4 +1,4 @@
-package Strings;
+package LeetCode.Strings;
 
 import java.util.HashMap;
 import java.util.Vector;

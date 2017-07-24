@@ -1,4 +1,4 @@
-package AdvancedAlgorithms;
+package LeetCode.AdvancedAlgorithms;
 
 public class TowerOfHanoi {
 	static int count = 0;

@@ -1,3 +1,4 @@
+package LeetCode.General;
 // Create a second thread.
 class NewThread implements Runnable {
 	Thread t;
