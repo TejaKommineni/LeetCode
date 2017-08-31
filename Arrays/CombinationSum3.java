@@ -29,5 +29,11 @@ public class CombinationSum3 {
     public static void main(String[] args) {
 		CombinationSum3 cs = new CombinationSum3();
 		cs.combinationSum3(3, 9);
+		List<String> list = new ArrayList<String>();
+		//add some stuff
+		list.add("android");
+		list.add("apple");
+		String[] stringArray = (String[]) list.toArray();
+		System.out.println(stringArray);
 	}
 }
