@@ -37,7 +37,24 @@ public class Contest48 {
 	        
 	    }
 	
-	
+	    public TreeNode trimBST(TreeNode root, int L, int R) {
+	        
+	        if(root == null)
+	            return root;
+	        if(root.val >= L && root.val <= R)
+	        {
+	            root.left = trimBST(root.left,L,R);
+	            root.right = trimBST(root.right,L,R);
+	            return root;
+	        }
+	        else if(root.val<L)
+	        {
+	            return trimBST(root.right,L,R);
+	        }
+	        else
+	            return trimBST(root.left,L,R);
+	        
+	    }
 	
 	public static void main(String[] args) {
 		Contest48 cs = new Contest48();
