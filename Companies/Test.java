@@ -1,4 +1,4 @@
-package LeetCode.Companies;
+package LeetCode.Trees;
 import java.io.*;
 import java.util.*;
 

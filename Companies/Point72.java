@@ -1,4 +1,4 @@
-package LeetCode.Companies;
+package LeetCode.Trees;
 
 public class Point72 {
 	
