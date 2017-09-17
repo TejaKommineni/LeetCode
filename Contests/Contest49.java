@@ -20,13 +20,13 @@ public class Contest49 {
 
 }
 
-class Trie
+class Trien
 {
     char ch;
     HashMap<Character,Trie> children;
     boolean isLeaf;
     
-    Trie(char c)
+    Trien(char c)
     {
         this.ch = c;
     }
