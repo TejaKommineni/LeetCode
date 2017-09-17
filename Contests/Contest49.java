@@ -23,7 +23,7 @@ public class Contest49 {
 class Trien
 {
     char ch;
-    HashMap<Character,Trie> children;
+    HashMap<Character,Trien> children;
     boolean isLeaf;
     
     Trien(char c)
@@ -33,27 +33,27 @@ class Trien
    
 }
 class MagicDictionary {
-	Trie root;
+	Trien root;
     /** Initialize your data structure here. */
     public MagicDictionary() {
-         root = new Trie('.');
+         root = new Trien('.');
     }
     
     /** Build a dictionary through a list of words */
     public void buildDict(String[] dict) {
         for(String str: dict)
         {
-            Trie node = root;
+            Trien node = root;
             for(int i=0;i<str.length();i++)
             {
                 if(node.children == null)
                 {
                     node.children = new HashMap();
-                    node.children.put(str.charAt(i),new Trie(str.charAt(i)));                    
+                    node.children.put(str.charAt(i),new Trien(str.charAt(i)));                    
                 }
                 else if(!node.children.containsKey(str.charAt(i)))
                 {
-                    node.children.put(str.charAt(i),new Trie(str.charAt(i)));                    
+                    node.children.put(str.charAt(i),new Trien(str.charAt(i)));                    
                 }                
                 node = node.children.get(str.charAt(i));
             }
@@ -61,12 +61,12 @@ class MagicDictionary {
         }
     }
     
-    /** Returns if there is any word in the trie that equals to the given word after modifying exactly one character */
+    /** Returns if there is any word in the Trien that equals to the given word after modifying exactly one character */
     public boolean search(String word) {
         return searchLetterExchanged(root,word,false);
     }
     
-    public boolean searchLetterExchanged(Trie node, String word, boolean oneLetterExchanged)
+    public boolean searchLetterExchanged(Trien node, String word, boolean oneLetterExchanged)
     {
         
         for(int i=0;i<word.length();i++)
@@ -77,7 +77,7 @@ class MagicDictionary {
           if(!oneLetterExchanged)
           {
               boolean flag = false;
-              for(Map.Entry<Character,Trie> e: node.children.entrySet())
+              for(Map.Entry<Character,Trien> e: node.children.entrySet())
               {
                   if(e.getKey() == word.charAt(i))
                       flag = searchLetterExchanged(e.getValue(),word.substring(i+1),false);
