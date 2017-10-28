@@ -1,6 +1,7 @@
 package LeetCode.Arrays;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,5 +53,18 @@ Explanation: A -> B -> idle -> A -> B -> idle -> A -> B.
 	    }
 	    return count;
 	}
-	
+	public static void main(String[] args) {
+		
+		PriorityQueue q = new PriorityQueue<String>( new Comparator<String>() {
+		
+			
+
+			@Override
+			public int compare(String o1, String o2) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		});
+		
+	}
 }
