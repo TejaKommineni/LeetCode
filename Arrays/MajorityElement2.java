@@ -1,7 +1,11 @@
 package LeetCode.Arrays;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
 
 public class MajorityElement2 {
 
@@ -44,7 +48,26 @@ public class MajorityElement2 {
 		result.add(number1);
 	if (count2 > len / 3)
 		result.add(number2);
+	
+	String s = new String();
+	
 	return result;
 }
+    public static void main(String[] args) {
+		
+    	
+    	
+    	Comparator<Map.Entry<String,Integer>> cmp = new Comparator<Map.Entry<String,Integer>>() {
+
+			@Override
+			public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+
+    	};
+    	
+    	TreeMap tr = new TreeMap<>(cmp);
+	}
 	
 }
