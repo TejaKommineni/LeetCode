@@ -16,6 +16,10 @@ public class Animal {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public int setName(String name) {
+		this.name = name;
+		return 0;
+	}
 
 }
 
