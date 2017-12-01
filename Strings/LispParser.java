@@ -63,7 +63,7 @@ Discuss
 
 public class LispParser {
 
-	class Solution {
+	
 		int pos;
 		int len;
 		String[] sp;
@@ -120,7 +120,10 @@ public class LispParser {
 				}
 	    	}
 	    }
-	}
- 
+	
+ public static void main(String[] args) {
+	LispParser lp = new LispParser();
+	lp.evaluate("(let x 2 (mult x (let x 3 y 4 (add x y))))");
+}
 
 }
