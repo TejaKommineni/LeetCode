@@ -85,4 +85,11 @@ public class Contest64 {
 	        }
 	        return -1;
 	    }
+	 
+	 public static void main(String[] args) {
+		
+		 Contest64 cs = new Contest64();
+		 cs.openLock(new String[] {"0201","0101","0102","1212","2002"}, "0202");
+		 
+	 	}
 	}
