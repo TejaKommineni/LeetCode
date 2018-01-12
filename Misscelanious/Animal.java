@@ -16,7 +16,7 @@ public class Animal {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int setName(String name) {
+	public int setName1(String name) {
 		this.name = name;
 		return 0;
 	}
