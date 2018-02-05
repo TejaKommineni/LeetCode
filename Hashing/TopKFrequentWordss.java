@@ -26,19 +26,24 @@ class TopKFrequentWordss {
       
         
         PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>(
-                 (a,b) -> a.getValue()==b.getValue() ? b.getKey().compareTo(a.getKey()) : a.getValue()-b.getValue()
+                 (a,b) -> a.getValue()==b.getValue() ? a.getKey().compareTo(b.getKey()) : b.getValue()-a.getValue()
         );
         
-        for(Map.Entry<String, Integer> entry: map.entrySet())
+        pq.addAll(map.entrySet());
+        
+        while(k>0)
         {
-            pq.offer(entry);
-            if(pq.size()>k)
-                pq.poll();
+        	result.add(pq.poll().getKey());
+        	k--;
         }
 
-        while(!pq.isEmpty())
-            result.add(0, pq.poll().getKey());
-        
+              
         return result;
     }
+    
+    public static void main(String[] args) {
+		TopKFrequentWordss tk = new TopKFrequentWordss();
+		tk.topKFrequent(new String[] {"i", "love", "leetcode", "i", "love", "coding"}, 2);
+    	
+	}
     }
