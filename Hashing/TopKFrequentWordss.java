@@ -46,4 +46,18 @@ class TopKFrequentWordss {
 		tk.topKFrequent(new String[] {"i", "love", "leetcode", "i", "love", "coding"}, 2);
     	
 	}
+    
+ public String reverseWords(String s) {
+        
+        String words[] = s.split(" ");
+        String ans = "";
+        for(String word : words)
+        {
+            ans = word +" "+ans;
+        }
+        ans = ans.trim();
+        return ans;
+        
+    }
+    
     }
